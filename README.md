@@ -10,3 +10,5 @@
   <li> Bước 7 : Kết thúc . </li>
 </ul>
 
+<p> Do đây là bước đầu làm nên chỉ mới có đăng nhập thôi , tui đang đợi tới lúc DKMH để lấy Link để làm tiếp keke </p>
+
