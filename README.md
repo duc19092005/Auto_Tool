@@ -9,6 +9,6 @@
   <li> Bước 6 : Sau khi build xong bạn hãy dùng lệnh dotnet run </li>
   <li> Bước 7 : Kết thúc . </li>
 </ul>
-
+<h2> Lưu Ý : Do Chưa vào được trang DKMH nên mình chưa làm được phần đăng ký môn nên các tính năng có thể chưa hoạt động mong mọi người thông cảm ... </h2>
 <p> Do đây là bước đầu làm nên chỉ mới có đăng nhập thôi , tui đang đợi tới lúc DKMH để lấy Link để làm tiếp keke </p>
 
