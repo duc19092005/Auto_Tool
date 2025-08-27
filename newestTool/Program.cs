@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using System.Text;
 using System.Linq;
 using newestTool.helper;
+using newestTool.services;
+using OpenQA.Selenium.DevTools.V100.HeapProfiler;
 
 namespace ConsoleApp1
 {
@@ -16,126 +18,50 @@ namespace ConsoleApp1
         static async Task Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-
             Console.ForegroundColor = ConsoleColor.Green;
-
             Console.Write("=== Nhập tên đăng nhập : ");
-
             string userName = Console.ReadLine();
-
             Console.WriteLine();
-
             Console.Write("=== Nhập mật khẩu : ");
-
             string password = Console.ReadLine();
+            Console.WriteLine();
+            Console.ResetColor();
 
-            var getLoginStatus = await Login(userName, password);
+            int options;
 
-            if (getLoginStatus.Item1)
+            Console.WriteLine(" -------------- Menu ------------------- ");
+            Console.WriteLine(" | 1. Test Case                        |");
+            Console.WriteLine(" | 2. Real Case                        |");
+            Console.WriteLine(" | 0. Exits                            |");
+            Console.WriteLine(" --------------------------------------- ");
+
+            Console.Write("--- Nhập Options của bạn --- : ");
+            options = int.Parse(Console.ReadLine());
+            if (options == 1)
             {
-                Console.WriteLine();
-
-                Console.WriteLine(getLoginStatus.Item2);
-
-                Console.ResetColor();
-
+                await testCase(userName, password);
+            }else if(options == 2)
+            {
+                await DKMH(userName, password, "YourFilePath");
+            }else if (options == 0)
+            {
                 Console.ReadKey();
-
             }
         }
 
-        static async Task<(bool, string)> Login(string userName, string password)
+        // Hiện tại hàm này chưa chạy do mình chưa vào được trang DKHP
+
+        static async Task DKMH(string username , string password , string filePath)
         {
-            while (String.IsNullOrEmpty(userName))
-            {
-                Console.ForegroundColor= ConsoleColor.Red;
+            loginServices loginServices = new loginServices();
+            await loginServices.login(username, password , filePath);
+        }
 
-                Console.WriteLine("UserName bị trống");
+        // Hiện tại hàm này đã chạy cho bạn nào muốn test
 
-                Console.WriteLine();
-
-                Console.Write("Nhập lại UserName : ");
-
-                userName = Console.ReadLine();
-            }
-
-            while (String.IsNullOrEmpty(password))
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Lỗi : Mật khẩu bị trống");
-                Console.WriteLine();
-                Console.Write("Nhập lại Password : ");
-                password = Console.ReadLine();
-            }
-
-            using (var driver = UndetectedChromeDriver.Create(driverExecutablePath: await new ChromeDriverInstaller().Auto()))
-            {
-                // Mặc định là 5 tiếng Chờ WebLoad
-                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(18000));
-                try
-                {
-                    driver.GoToUrl("https://portal.huflit.edu.vn/");
-
-                    var loginButton =
-                        wait.Until(ExpectedConditions.ElementToBeClickable(By.LinkText("Đăng nhập")));
-                    loginButton.Click();
-
-                    var loginByMicrosoftButton =
-                        wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("input[value='Office 365 for Student']")));
-                    loginByMicrosoftButton.Click();
-
-
-                    loginHelper.userServices(userName, driver);
-
-                    loginHelper.passwordServices(password, driver);
-
-                    var yesButton =
-                        wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector
-                        (".win-button.button_primary.high-contrast-overrides.button.ext-button.primary.ext-primary")));
-                    yesButton.Click();
-
-                    wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector(".navbar-header")));
-
-                    var getCookie = driver.Manage().Cookies.GetCookieNamed("ASP.NET_SessionId");
-
-                    // Lấy Data ra
-                    var fileStatus = await readfileHelper.readFile("yourFilePath.txt");
-                    
-                    var getFileData = fileStatus.Item2; // Trích xuất từ dictionary ra để lấy data
-
-                    var Tasks = new List<Task>();
-
-                    foreach (var data in getFileData)
-                    {
-                        // Split data
-
-                        string[] splitData = [];
-
-                        if (data.Value.Contains(","))
-                        {
-                            splitData = data.Value.Split(",");
-                        }
-                        else
-                        {
-                            splitData = data.Value.Split();
-                        }
-                        // Cho nhiều Task chạy cùng 1 lúc 
-                        Task task = dangKyHocPhanHelper.DKHPFuncition(getCookie, data.Key, splitData);
-                        // Lưu Task vô List
-                        Tasks.Add(task);
-                    }
-
-                    // Đợi tất cả Task Hoàn Thành
-
-                    await Task.WhenAll(Tasks);
-                    
-                    return (true, "---------------- Đăng nhập Thành công ---------------------");
-                }
-                catch (Exception ex)
-                {
-                    return (false, $"Lỗi {ex.Message}");
-                }
-            }
+        static async Task testCase(string username, string password)
+        {
+            await testClass.login(username, password);
         }
     }
 }

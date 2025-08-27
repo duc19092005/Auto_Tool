@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium.Support.UI;
+﻿using newestTool.helper;
+using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium;
 using SeleniumExtras.WaitHelpers;
 using SeleniumUndetectedChromeDriver;
@@ -7,32 +8,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
-namespace newestTool.helper
+namespace newestTool.services
 {
-    internal class testClass
+    internal class loginServices
     {
-        public async static Task DKHPFuncition(Cookie cookie)
-        {
-            try
-            {
-                // Phiên làm việc đợi khá lâu do có thể có nhiều người đặt
-
-                // Đây là testClass
-
-                var driver = UndetectedChromeDriver.Create(driverExecutablePath: await new ChromeDriverInstaller().Auto());
-
-                driver.GoToUrl("https://portal.huflit.edu.vn/Home/StudyPrograms");
-
-                driver.Manage().Cookies.AddCookie(cookie);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Lỗi :" + e.Message);
-            }
-        }
-
-        public static async Task login(string userName, string password)
+        public async Task login(string userName , string password , string filePath)
         {
             while (String.IsNullOrEmpty(userName))
             {
@@ -116,14 +98,53 @@ namespace newestTool.helper
 
                     var getCookie = driver.Manage().Cookies.GetCookieNamed("ASP.NET_SessionId");
 
-                    List<Task> tasks = new List<Task>();
-                    for (int i = 0; i < 5; i++)
+                    // Lấy Status từ file TXT
+
+                    var fileStatus = await readfileHelper.readFile(filePath);
+
+                    // Lấy Data ra
+
+                    var getFileData = fileStatus.Item2; // Trích xuất từ dictionary ra để lấy data
+
+                    // Tạo List Task để chạy đồng thời nhiều Driver cùng 1 lúc để đăng ký môn
+
+                    var Tasks = new List<Task>();
+
+                    // Duyệt qua Dictionary để lấy key và value
+
+                    foreach (var data in getFileData)
                     {
-                        var testCase = DKHPFuncition(getCookie);
-                        tasks.Add(testCase);
+                        // Split data ra để cho vào paramter
+
+                        string[] splitData = [];
+
+                        // nếu dính vào Options 2
+
+                        if (data.Value.Contains(","))
+                        {
+                            splitData = data.Value.Split(",");
+                        }
+                        else // Options 1
+                        {
+                            splitData = data.Value.Split();
+                        }
+
+                        // Tạo Task mới
+
+                        Task task = dangKyHocPhanHelper.DKHPFuncition(getCookie, data.Key, splitData);
+
+                        // Thêm Task mới vào List
+
+                        Tasks.Add(task);
                     }
 
-                    await Task.WhenAll(tasks);
+                    // Chờ cho đến khi cả 5 Task Chạy Thành Công
+
+                    await Task.WhenAll(Tasks);
+
+                    // Thông báo đăng ký môn thành công
+
+                    Console.WriteLine("---------------- Đăng ký môn thành công ---------------------");
                 }
                 catch (Exception ex)
                 {

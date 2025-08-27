@@ -17,17 +17,22 @@ namespace newestTool.helper
         {
             try
             {
-                // Phiên làm việc đợi khá lâu do có thể có nhiều người đặt
 
                 var driver = UndetectedChromeDriver.Create(driverExecutablePath: await new ChromeDriverInstaller().Auto());
+
                 // Trỏ tới trang đk học phần 
+
                 driver.GoToUrl("https://portal.huflit.edu.vn/Home/DangKyHocPhan");
+
+                // Thêm Cookie vào Header
+
                 driver.Manage().Cookies.AddCookie(cookie);
+
+                // Đợi khá lâu do nếu web bị nghẽn thì còn cơ hội vào đc
+
                 WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(18000));
 
                 // Trước tiên tìm kiếm môn trước 
-
-                // Sử dụng cơ chế bất đồng bộ để chạy 5 task cùng 1 lúc
 
                 var searchMaMon = wait.Until(ExpectedConditions.ElementToBeClickable(By.Name("CssValue")));
 
