@@ -1,0 +1,48 @@
+﻿						
+						
+						
+						---------- Hướng Dẫn | StartGuide -------------
+
+
+----------- Cách 1 :
+
+Bước 1 : Bạn Thêm Một File txt (bạn đặt tên nào cũng được)  . 
+
+Bước 2 : Sau khi thêm xong bạn thêm data vào file txt với cấu trúc như sau
+Mã môn - Mã học phần . 
+
+Ví dụ bạn có môn cấu trúc dữ liệu với mã môn là 10001 bạn muốn đăng ký học phần có mã là 1000002 thì cấu trúc sẽ như sau
+và có môn toán rời rạc có mã môn là 1000001 muốn đăng ký hp số 100004
+
+Bước 3 : Bạn chỉnh lại ở File bạn đã tạo như này ví dụ
+
+Tên File : xx.txt
+10001 - 1000002
+1000001 - 100004
+
+Bước 4 : Kết thúc .
+
+
+
+----------- Cách 2 :
+
+Bước 1 : Bạn Thêm Một File txt (bạn đặt tên nào cũng được)  . 
+
+Bước 2 : Sau khi thêm xong bạn thêm data vào file txt với cấu trúc như sau
+Mã môn - Mã học phần . 
+
+Ví dụ bạn có môn cấu trúc dữ liệu với mã môn là 10001 bạn muốn đăng ký học phần có mã là 1000002 , 100003 thì cấu trúc sẽ như sau
+và có môn toán rời rạc có mã môn là 1000001 muốn đăng ký hp số 100004 , 100005
+
+Bước 3 : Bạn chỉnh lại ở File bạn đã tạo như này ví dụ
+
+Tên File : xx.txt
+10001 - {1000002 , 100003}
+1000001 - {100004 , 100005}
+
+Bước 4 : Kết thúc .
+
+
+
+
+

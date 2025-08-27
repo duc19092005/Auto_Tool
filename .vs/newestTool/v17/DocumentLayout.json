@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\Tool\\newestTool\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\huongdan_startguide.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\huongdan_startguide.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\data\\testfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\data\\testfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\data\\textfile2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\data\\textfile2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\helper\\dangkyhocphanhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\helper\\dangkyhocphanhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\helper\\loginhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\helper\\loginhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\helper\\readfilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\helper\\readfilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\helper\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\helper\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\newesttool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\newesttool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +54,117 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "testClass.cs",
+              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\helper\\testClass.cs",
+              "RelativeDocumentMoniker": "newestTool\\helper\\testClass.cs",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\helper\\testClass.cs",
+              "RelativeToolTip": "newestTool\\helper\\testClass.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T06:11:01.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dangKyHocPhanHelper.cs",
+              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\helper\\dangKyHocPhanHelper.cs",
+              "RelativeDocumentMoniker": "newestTool\\helper\\dangKyHocPhanHelper.cs",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\helper\\dangKyHocPhanHelper.cs",
+              "RelativeToolTip": "newestTool\\helper\\dangKyHocPhanHelper.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAjwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T05:00:05.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "loginHelper.cs",
+              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\helper\\loginHelper.cs",
+              "RelativeDocumentMoniker": "newestTool\\helper\\loginHelper.cs",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\helper\\loginHelper.cs",
+              "RelativeToolTip": "newestTool\\helper\\loginHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T04:24:34.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TextFile2.txt",
+              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\data\\TextFile2.txt",
+              "RelativeDocumentMoniker": "newestTool\\data\\TextFile2.txt",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\data\\TextFile2.txt",
+              "RelativeToolTip": "newestTool\\data\\TextFile2.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-27T03:58:03.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HuongDan_StartGuide.txt",
+              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\HuongDan_StartGuide.txt",
+              "RelativeDocumentMoniker": "newestTool\\HuongDan_StartGuide.txt",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\HuongDan_StartGuide.txt",
+              "RelativeToolTip": "newestTool\\HuongDan_StartGuide.txt",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-27T03:52:58.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "readfileHelper.cs",
+              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\helper\\readfileHelper.cs",
+              "RelativeDocumentMoniker": "newestTool\\helper\\readfileHelper.cs",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\helper\\readfileHelper.cs",
+              "RelativeToolTip": "newestTool\\helper\\readfileHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T03:14:42.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "newestTool",
+              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\newestTool.csproj",
+              "RelativeDocumentMoniker": "newestTool\\newestTool.csproj",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\newestTool.csproj",
+              "RelativeToolTip": "newestTool\\newestTool.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-27T03:13:38.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestFile.txt",
+              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\data\\TestFile.txt",
+              "RelativeDocumentMoniker": "newestTool\\data\\TestFile.txt",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\data\\TestFile.txt",
+              "RelativeToolTip": "newestTool\\data\\TestFile.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-27T03:13:57.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\Program.cs",
               "RelativeDocumentMoniker": "newestTool\\Program.cs",
               "ToolTip": "D:\\Tool\\newestTool\\newestTool\\Program.cs",
               "RelativeToolTip": "newestTool\\Program.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAADwv6EAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAiwCIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T02:40:25.953Z",
               "EditorCaption": ""
