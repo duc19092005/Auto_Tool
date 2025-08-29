@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Tool\\newestTool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\helper\\converttocookiehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\helper\\converttocookiehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\services\\loginservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\services\\loginservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\data\\textfile2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\data\\textfile2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\services\\dkmhservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\services\\dkmhservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\helper\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,28 +31,24 @@
       "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\helper\\loginhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\helper\\readfilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\helper\\readfilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\helper\\filereaderhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\helper\\filereaderhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\helper\\dangkyhocphanhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\helper\\dangkyhocphanhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\newesttool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\newesttool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\data\\textfile2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\data\\textfile2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\huongdan_startguide.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\huongdan_startguide.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\data\\testfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\data\\testfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\huongdan_startguide.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\huongdan_startguide.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|d:\\tool\\newesttool\\newesttool\\newesttool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5FCC7E7C-9664-4DAB-9395-120DC76E5738}|newestTool\\newestTool.csproj|solutionrelative:newesttool\\newesttool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,46 +66,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "loginServices.cs",
-              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\services\\loginServices.cs",
-              "RelativeDocumentMoniker": "newestTool\\services\\loginServices.cs",
-              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\services\\loginServices.cs",
-              "RelativeToolTip": "newestTool\\services\\loginServices.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAUwJkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "convertToCookieHelper.cs",
+              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\helper\\convertToCookieHelper.cs",
+              "RelativeDocumentMoniker": "newestTool\\helper\\convertToCookieHelper.cs",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\helper\\convertToCookieHelper.cs",
+              "RelativeToolTip": "newestTool\\helper\\convertToCookieHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T03:49:41.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "loginService.cs",
+              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\services\\loginService.cs",
+              "RelativeDocumentMoniker": "newestTool\\services\\loginService.cs",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\services\\loginService.cs",
+              "RelativeToolTip": "newestTool\\services\\loginService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T02:55:55.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DKMHService.cs",
+              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\services\\DKMHService.cs",
+              "RelativeDocumentMoniker": "newestTool\\services\\DKMHService.cs",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\services\\DKMHService.cs",
+              "RelativeToolTip": "newestTool\\services\\DKMHService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAWwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T07:07:42.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "testClass.cs",
               "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\helper\\testClass.cs",
               "RelativeDocumentMoniker": "newestTool\\helper\\testClass.cs",
               "ToolTip": "D:\\Tool\\newestTool\\newestTool\\helper\\testClass.cs",
               "RelativeToolTip": "newestTool\\helper\\testClass.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAwwHkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAADgvxAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T06:11:01.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "dangKyHocPhanHelper.cs",
               "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\helper\\dangKyHocPhanHelper.cs",
               "RelativeDocumentMoniker": "newestTool\\helper\\dangKyHocPhanHelper.cs",
               "ToolTip": "D:\\Tool\\newestTool\\newestTool\\helper\\dangKyHocPhanHelper.cs",
               "RelativeToolTip": "newestTool\\helper\\dangKyHocPhanHelper.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAArwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAYwEMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T05:00:05.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "loginHelper.cs",
               "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\helper\\loginHelper.cs",
               "RelativeDocumentMoniker": "newestTool\\helper\\loginHelper.cs",
@@ -110,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "TextFile2.txt",
               "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\data\\TextFile2.txt",
               "RelativeDocumentMoniker": "newestTool\\data\\TextFile2.txt",
@@ -129,27 +163,27 @@
               "RelativeDocumentMoniker": "newestTool\\HuongDan_StartGuide.txt",
               "ToolTip": "D:\\Tool\\newestTool\\newestTool\\HuongDan_StartGuide.txt",
               "RelativeToolTip": "newestTool\\HuongDan_StartGuide.txt",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-08-27T03:52:58.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "readfileHelper.cs",
-              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\helper\\readfileHelper.cs",
-              "RelativeDocumentMoniker": "newestTool\\helper\\readfileHelper.cs",
-              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\helper\\readfileHelper.cs",
-              "RelativeToolTip": "newestTool\\helper\\readfileHelper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBAAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "fileReaderHelper.cs",
+              "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\helper\\fileReaderHelper.cs",
+              "RelativeDocumentMoniker": "newestTool\\helper\\fileReaderHelper.cs",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\helper\\fileReaderHelper.cs",
+              "RelativeToolTip": "newestTool\\helper\\fileReaderHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T03:14:42.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "newestTool.csproj",
               "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\newestTool.csproj",
               "RelativeDocumentMoniker": "newestTool\\newestTool.csproj",
@@ -157,12 +191,11 @@
               "RelativeToolTip": "newestTool\\newestTool.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-27T03:13:38.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T03:13:38.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "TestFile.txt",
               "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\data\\TestFile.txt",
               "RelativeDocumentMoniker": "newestTool\\data\\TestFile.txt",
@@ -170,18 +203,17 @@
               "RelativeToolTip": "newestTool\\data\\TestFile.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-08-27T03:13:57.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T03:13:57.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Tool\\newestTool\\newestTool\\Program.cs",
               "RelativeDocumentMoniker": "newestTool\\Program.cs",
-              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\Program.cs*",
-              "RelativeToolTip": "newestTool\\Program.cs*",
-              "ViewState": "AgIAABYAAAAAAAAAAAAIwCUAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Tool\\newestTool\\newestTool\\Program.cs",
+              "RelativeToolTip": "newestTool\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAWwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T02:40:25.953Z",
               "EditorCaption": ""

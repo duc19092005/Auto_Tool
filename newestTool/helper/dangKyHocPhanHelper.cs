@@ -13,7 +13,7 @@ namespace newestTool.helper
 {
     internal class dangKyHocPhanHelper
     {
-        public async static Task DKHPFuncition(Cookie cookie , string key , string[]value)
+        public async static Task<(bool , string , string)> DKHPFuncition(Cookie cookie , string key , string[]value)
         {
             try
             {
@@ -61,10 +61,12 @@ namespace newestTool.helper
 
                 findSignButton.Click();
 
+                return (true, key , "Đăng ký học phần thành công");
+
             }
             catch (Exception e)
             {
-                Console.WriteLine("Lỗi :" + e.Message);
+                return (false, key , "Lỗi :" + e.Message);
             }
         }
     }

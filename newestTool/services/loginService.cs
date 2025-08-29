@@ -8,13 +8,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Globalization;
 
 namespace newestTool.services
 {
-    internal class loginServices
+    internal class loginService
     {
-        public async Task login(string userName , string password , string filePath)
+        public static async Task<Cookie> login(string userName, string password)
         {
             while (String.IsNullOrEmpty(userName))
             {
@@ -98,57 +97,15 @@ namespace newestTool.services
 
                     var getCookie = driver.Manage().Cookies.GetCookieNamed("ASP.NET_SessionId");
 
-                    // Lấy Status từ file TXT
+                    Console.WriteLine("-------------- Đã Đăng Nhập Thành Công -----------------");
 
-                    var fileStatus = await readfileHelper.readFile(filePath);
-
-                    // Lấy Data ra
-
-                    var getFileData = fileStatus.Item2; // Trích xuất từ dictionary ra để lấy data
-
-                    // Tạo List Task để chạy đồng thời nhiều Driver cùng 1 lúc để đăng ký môn
-
-                    var Tasks = new List<Task>();
-
-                    // Duyệt qua Dictionary để lấy key và value
-
-                    foreach (var data in getFileData)
-                    {
-                        // Split data ra để cho vào paramter
-
-                        string[] splitData = [];
-
-                        // nếu dính vào Options 2
-
-                        if (data.Value.Contains(","))
-                        {
-                            splitData = data.Value.Split(",");
-                        }
-                        else // Options 1
-                        {
-                            splitData = data.Value.Split();
-                        }
-
-                        // Tạo Task mới
-
-                        Task task = dangKyHocPhanHelper.DKHPFuncition(getCookie, data.Key, splitData);
-
-                        // Thêm Task mới vào List
-
-                        Tasks.Add(task);
-                    }
-
-                    // Chờ cho đến khi cả 5 Task Chạy Thành Công
-
-                    await Task.WhenAll(Tasks);
-
-                    // Thông báo đăng ký môn thành công
-
-                    Console.WriteLine("---------------- Đăng ký môn thành công ---------------------");
+                    return getCookie;
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Lỗi {ex.Message}");
+
+                    return null!;
                 }
             }
         }

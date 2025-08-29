@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace newestTool.helper
 {
-    internal class readfileHelper
+    internal class fileReaderHelper
     {
         public static async Task<(bool , Dictionary<string, string>?)> readFile(string filePath)
         {
